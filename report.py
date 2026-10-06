@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Usage:
     python3 report.py /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
