@@ -111,7 +111,7 @@ For public or production deployments, avoid using endpoints that prohibit automa
 The supplied service assumes:
 
 ```text
-User=roland
+User=your user name
 WorkingDirectory=/opt/internet-monitor
 ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
 ```
