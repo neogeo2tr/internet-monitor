@@ -57,8 +57,8 @@ The project is designed for long-running monitoring of an Internet connection. I
 | `analyze.py` | Reads a monitoring database and produces a detailed command-line analysis. |
 | `report.py` | Generates an evidence-oriented PDF report from a monitoring database. |
 | `emailreport.sh` | Finds the newest database, generates the report, runs the analysis and sends the PDF by e-mail. |
-| `internet-monitor.service` | systemd unit for running `monitor.py` continuously. |
 | `imlogo.svg` | SVG logo used by the PDF report. This file must be present beside `report.py` when reports are generated. |
+| `internet-monitor.service` | systemd unit for running `monitor.py` continuously. |
 
 ## Requirements
 
