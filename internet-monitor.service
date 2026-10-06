@@ -1,0 +1,15 @@
+[Unit]
+Description=Internet Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=roland
+WorkingDirectory=/opt/internet-monitor
+ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
