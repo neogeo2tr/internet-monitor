@@ -155,12 +155,12 @@ python3 report.py -v /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
 The supplied service file is configured for:
 
 ```text
-User=roland
+User=your user name
 WorkingDirectory=/opt/internet-monitor
 ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
 ```
 
-Adjust these values to match the target system before installing the service.
+Adjust these values to match the target system before installing the service. See example: internet-monitor.service
 
 Typical commands are:
 
