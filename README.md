@@ -25,6 +25,8 @@ The project is designed for long-running monitoring of an Internet connection. I
 
 ## Architecture
 
+<p align="center"><img src="images/architecture.svg" width="300"></p>
+
 ```text
                          +----------------------+
                          |     monitor.py       |
