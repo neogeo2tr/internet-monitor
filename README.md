@@ -25,33 +25,7 @@ The project is designed for long-running monitoring of an Internet connection. I
 
 ## Architecture
 
-<p align="center"><img src="images/architecture.svg" width="300"></p>
-
-```text
-                         +----------------------+
-                         |     monitor.py       |
-                         | Continuous monitoring|
-                         +----------+-----------+
-                                    |
-                                    v
-                         +----------------------+
-                         |      SQLite DB        |
-                         | measurements/events   |
-                         +----+-------------+----+
-                              |             |
-                    +---------+             +----------+
-                    v                                   v
-             +-------------+                      +-------------+
-             | analyze.py  |                      |  report.py  |
-             | CLI analysis|                      |  PDF report |
-             +-------------+                      +-------------+
-                                                       |
-                                                       v
-                                                 PDF report
-                                                       |
-                                                       v
-                                             emailreport.sh
-```
+<p align="center"><img src="images/architecture.svg" width="500"></p>
 
 ## Main Components
 
