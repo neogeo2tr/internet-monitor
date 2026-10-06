@@ -110,8 +110,7 @@ A typical installation directory is:
 ├── analyze.py
 ├── report.py
 ├── emailreport.sh
-├── imlogo.svg
-└── reports/
+└── imlogo.svg
 ```
 
 The `reports/` directory is created automatically by `report.py` when needed.
