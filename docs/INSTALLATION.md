@@ -164,5 +164,3 @@ journalctl -u internet-monitor.service -f
 Before using `emailreport.sh`, configure a working `sendmail` installation and review the recipient configuration in the script.
 
 The script expects the application directory to be `/opt/internet-monitor` and searches that directory for the newest `monitor_*.db` database.
-
-Do not publish a personal or production e-mail address in a public repository. Make the recipient configurable before committing the script publicly.
