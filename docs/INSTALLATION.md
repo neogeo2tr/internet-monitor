@@ -68,8 +68,7 @@ Copy the project files into that directory:
 ├── analyze.py
 ├── report.py
 ├── emailreport.sh
-├── imlogo.svg
-└── reports/
+└── imlogo.svg
 ```
 
 `imlogo.svg` is required by `report.py`.
