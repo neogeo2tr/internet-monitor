@@ -14,13 +14,7 @@ import tempfile
 import threading
 import time
 
-
-# ============================================================
-# INTERNET MONITOR V5.1
-# ============================================================
-
-VERSION = "V5.1"
-
+VERSION = "v1.0"
 BASE_DIR = "/opt/internet-monitor"
 
 PING_INTERVAL = 5

@@ -6,7 +6,7 @@ import sqlite3
 from datetime import datetime, timezone
 
 
-VERSION = "V1.2.7"
+VERSION = "v1.0"
 
 
 # ============================================================

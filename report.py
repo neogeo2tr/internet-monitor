@@ -1,20 +1,7 @@
 """
-Internet Monitor Report V1.4
-
-Generates an evidence-oriented PDF report from an Internet Monitor SQLite DB.
-
-V1.3 changes:
-- refined visual design with restrained blue accents
-- light blue table headers
-- corrected HTTPS / DoH table width
-- user-supplied SVG Internet Monitor logo on cover and footer
-- cover logo centered on the page
-- small centered SVG logo in footer on all pages
-- no functional/data-content changes from V1.3
-
 Usage:
-    python3 report_v14.py /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
-    python3 report_v14.py -v /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
+    python3 report.py /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
+    python3 report.py -v /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
 """
 
 import os
@@ -48,7 +35,7 @@ from reportlab.graphics import renderPDF
 from svglib.svglib import svg2rlg
 
 
-VERSION = "V1.4"
+VERSION = "v1.0"
 
 LOGO_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
