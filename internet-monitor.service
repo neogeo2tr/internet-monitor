@@ -5,7 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=roland
+User=your user name
 WorkingDirectory=/opt/internet-monitor
 ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
 Restart=on-failure
