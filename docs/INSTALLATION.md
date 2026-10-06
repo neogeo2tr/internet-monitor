@@ -53,7 +53,6 @@ Copy the project files into that directory:
 ├── analyze.py
 ├── report.py
 ├── emailreport.sh
-├── internet-monitor.service
 ├── imlogo.svg
 └── reports/
 ```
