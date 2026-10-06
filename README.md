@@ -162,7 +162,7 @@ WorkingDirectory=/opt/internet-monitor
 ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
 ```
 
-Adjust these values to match the target system before installing the service. See example: internet-monitor.service
+Adjust these values to match the target system before installing the service. See example: internet-monitor.service file.
 
 Typical commands are:
 
