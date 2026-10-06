@@ -107,7 +107,6 @@ A typical installation directory is:
 ├── analyze.py
 ├── report.py
 ├── emailreport.sh
-├── internet-monitor.service
 ├── imlogo.svg
 └── reports/
 ```
