@@ -62,9 +62,6 @@ Copy the project files into that directory:
 Make the scripts executable where appropriate:
 
 ```bash
-sudo chmod +x /opt/internet-monitor/monitor.py
-sudo chmod +x /opt/internet-monitor/analyze.py
-sudo chmod +x /opt/internet-monitor/report.py
 sudo chmod +x /opt/internet-monitor/emailreport.sh
 ```
 
