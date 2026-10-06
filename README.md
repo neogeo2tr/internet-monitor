@@ -94,6 +94,10 @@ The e-mail helper additionally requires:
 - `base64`
 - standard POSIX shell utilities such as `find`, `sort`, `head`, `cut`, `basename` and `du`
 
+The exact Speedtest package depends on the Speedtest client installed on the system.
+Internet Monitor uses the **official Ookla Speedtest CLI** client. Install it using the official Ookla repository. See [`docs/INSTALLATION.md`](docs/INSTALLATION.md) for a complete installation example.
+
+
 ## Installation
 
 See [`docs/INSTALLATION.md`](docs/INSTALLATION.md) for a complete installation example.
