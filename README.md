@@ -325,8 +325,11 @@ steps required to reproduce the problem
 
 Please do not publish private network information, credentials, email addresses or other sensitive data in public issue reports.
 
+
 ## Author
 
 Internet Monitor
+
 Copyright (c) 2026 Roland Tokaji
+
 Licensed under the MIT License.
