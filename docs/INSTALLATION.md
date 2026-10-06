@@ -111,7 +111,7 @@ If PDF generation fails because of the logo, verify that `imlogo.svg` exists bes
 Review `internet-monitor.service` before installing it. The supplied file contains the following system-specific settings:
 
 ```ini
-User=roland
+User=your user name
 WorkingDirectory=/opt/internet-monitor
 ExecStart=/usr/bin/python3 /opt/internet-monitor/monitor.py
 ```
