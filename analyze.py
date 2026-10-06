@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+"""
+Usage:
+    python3 analyze.py /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
+    python3 analyze.py -v /opt/internet-monitor/monitor_YYYYMMDD_HHMMSS.db
+"""
+
 import os
 import sys
 import sqlite3
