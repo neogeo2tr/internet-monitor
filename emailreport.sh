@@ -2,7 +2,7 @@
 BASE_DIR="/opt/internet-monitor"
 REPORT_SCRIPT="$BASE_DIR/report.py"
 ANALYZE_SCRIPT="$BASE_DIR/analyze.py"
-MAIL_TO="troland@post.com"
+MAIL_TO="your@email.com"
 
 echo "=== Internet Monitor report ==="
 echo "Start: $(date)"
