@@ -27,6 +27,21 @@ speedtest --version
 
 The exact Speedtest package depends on the Speedtest client installed on the system.
 
+### Speedtest Installation
+Internet Monitor uses the **official Ookla Speedtest CLI** client. Install it using the official Ookla repository:
+
+```bash
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt install speedtest
+```
+Verify the installation:
+
+```bash
+speedtest --version
+```
+
+The project uses the **Ookla Speedtest** client, not the Python-based `speedtest-cli` package.
+
 ## 2. Python packages
 
 Install the Python dependencies:
