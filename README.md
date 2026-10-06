@@ -1,3 +1,5 @@
+<p align="center"><img src="imlogo.svg" alt="Internet Monitor" width="130"></p>
+
 # Internet Monitor
 
 A lightweight Linux-based Internet connectivity monitoring system that continuously records network measurements in SQLite and provides command-line analysis and PDF reporting.
