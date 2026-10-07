@@ -311,9 +311,10 @@ Internet Monitor
 
 Copyright (c) 2026 Roland Tokaji
 
+Licensed under the MIT License.
+
+
 ## Donate
 
 I like beer. If you enjoy my work and find it useful, feel free to buy me a beer… or even two. Cheers! 🍺
 
-
-Licensed under the MIT License.
